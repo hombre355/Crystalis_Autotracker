@@ -263,7 +263,7 @@ function receive()
   while true do
     if receiveSize == 0 then
       local n = receiveData(1)
-      hal.message("n: " .. n)
+      --hal.message("n: " .. n)
       if n == nil then
         hal.message("n is nil")
          break
