@@ -1,14 +1,24 @@
-from PyQt6.QtWidgets import QApplication, QWidget
+from PyQt6 import QtWidgets, uic
 import socket
 import hex_addresses
-import sys
+
 
 TCP_IP = "127.0.0.1"
 TCP_PORT = 43884
 bufferSize = 1024
 
 
-# bytesToSend = "125648"
+class Ui(QtWidgets.QMainWindow):
+    def __init__(self):
+        super(Ui, self).__init__()
+        uic.loadUi("cry_gui.ui", self)
+
+        # Set the print button text to "Text Changed"
+        self.pushButton_2.setText('Text Changed')
+        #self.printButton.setText('Text Changed')
+        # This should not throw an error as `uic.loadUi` would have created `self.printButton`
+
+        self.show()
 
 
 def initialize_udp_socket():
@@ -29,6 +39,16 @@ def updateWindSword():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    ##ui test
+    app = QtWidgets.QApplication([])
+    window = Ui()#uic.loadUi("cry_gui.ui", self)
+
+    #window.show()
+    app.exec()
+
+
+
+
     UDP_Server_Socket = initialize_udp_socket()
     UDP_Server_Socket.listen()
     conn, addr = UDP_Server_Socket.accept()
