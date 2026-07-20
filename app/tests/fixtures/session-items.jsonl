@@ -1,0 +1,5 @@
+{"t":"hello","proto":1,"emu":"mesen2","script":"bridge.lua/0.1.0"}
+{"t":"gamestate","v":1}
+{"t":"seed","checksum":"a1b2c3d4e5f60708"}
+{"t":"flags","raw":"Gt Mr Ps Rlpt Sct Tab"}
+{"t":"ram","seq":1,"regions":{"6430":"AP//A///////////Bgf/////////////Lv////////8+Mv///////0H//0j/////","6480":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","1bc0":"wDM=","1f02":"0gQuFoQDKFA="}}

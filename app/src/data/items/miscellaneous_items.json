@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Tornel Bracelet Check",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/items/braceletofwind.png",
+        "img_mods": "overlay|pack-images/badges/tornel.png",
+        "codes": "tornel, tornelwind",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/braceletoffire.png",
+        "img_mods": "overlay|pack-images/badges/tornel.png",
+        "codes": "tornel, tornelfire",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/braceletofwater.png",
+        "img_mods": "overlay|pack-images/badges/tornel.png",
+        "codes": "tornel, tornelwater",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/braceletofthunder.png",
+        "img_mods": "overlay|pack-images/badges/tornel.png",
+        "codes": "tornel, tornelthunder",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Rage Sword Check",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/items/swordofwind.png",
+        "img_mods": "overlay|pack-images/badges/rage.png",
+        "codes": "rage, ragewind",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/swordoffire.png",
+        "img_mods": "overlay|pack-images/badges/rage.png",
+        "codes": "rage, ragefire",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/swordofwater.png",
+        "img_mods": "overlay|pack-images/badges/rage.png",
+        "codes": "rage, ragewater",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thundernowarp.png",
+        "img_mods": "overlay|pack-images/badges/rage.png",
+        "codes": "rage, ragethunder",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/swordblank.png",
+        "img_mods": "overlay|pack-images/badges/ragetested.png",
+        "codes": "rage, ragetested",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

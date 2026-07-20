@@ -1,0 +1,205 @@
+[
+  {
+    "name": "Randomize Maps",
+    "type": "toggle",
+    "img": "pack-images/flags/Wm.png",
+    "loop": true,
+    "codes": "flag_wm"
+  },
+  {
+    "name": "Randomize Houses",
+    "type": "toggle",
+    "img": "pack-images/flags/not implemented.png",
+    "disabled_img": "pack-images/flags/Wh.png",
+    "loop": true,
+    "codes": "flag_wh"
+  },
+  {
+    "name": "Randomize Trade-In Items",
+    "type": "toggle",
+    "img": "pack-images/flags/Wt.png",
+    "loop": true,
+    "ignore_user_input": true,
+    "codes": "flag_wt"
+  },
+  {
+    "name": "Unidentified Key Items",
+    "type": "toggle",
+    "capturable": false,
+    "img": "pack-images/flags/Wu.png",
+    "loop": true,
+    "ignore_user_input": true,
+    "codes": "flag_wu"
+  },
+  {
+    "name": "Randomize Elements to Break Walls",
+    "type": "toggle",
+    "img": "pack-images/flags/We.png",
+    "loop": true,
+    "codes": "flag_we"
+  },
+  {
+    "name": "Shuffle Goa Fortress Floors",
+    "type": "toggle",
+    "img": "pack-images/flags/Wg.png",
+    "loop": true,
+    "codes": "flag_wg"
+  },
+  {
+    "name": "Randomize Monster Weaknesses",
+    "type": "toggle",
+    "img": "pack-images/flags/Me.png",
+    "loop": true,
+    "codes": "flag_me"
+  },
+  {
+    "name": "Oops, all Mimics!",
+    "type": "toggle",
+    "img": "pack-images/flags/Mg.png",
+    "loop": true,
+    "codes": "flag_mg"
+  },
+  {
+    "name": "Orbs Not Required to Break Walls",
+    "type": "toggle",
+    "img": "pack-images/flags/Ro.png",
+    "loop": true,
+    "codes": "flag_ro"
+  },
+  {
+    "name": "Vanilla Dolphin Interactions",
+    "type": "toggle",
+    "img": "pack-images/flags/Rd.png",
+    "loop": true,
+    "codes": "flag_rd"
+  },
+  {
+    "name": "Ghetto Flight",
+    "type": "toggle",
+    "img": "pack-images/flags/Gf.png",
+    "loop": true,
+    "codes": "flag_gf"
+  },
+  {
+    "name": "Statue Glitch",
+    "type": "toggle",
+    "img": "pack-images/flags/Gs.png",
+    "loop": true,
+    "codes": "flag_gs"
+  },
+  {
+    "name": "Mt. Sabre Requirements Skip",
+    "type": "toggle",
+    "img": "pack-images/flags/Gn.png",
+    "loop": true,
+    "codes": "flag_gn"
+  },
+  {
+    "name": "Statue Gauntlet Skip",
+    "type": "toggle",
+    "img": "pack-images/flags/Gg.png",
+    "loop": true,
+    "codes": "flag_gg"
+  },
+  {
+    "name": "Sword Charge Glitch",
+    "type": "toggle",
+    "img": "pack-images/flags/Gc.png",
+    "loop": true,
+    "codes": "flag_gc"
+  },
+  {
+    "name": "Trigger Skip",
+    "type": "toggle",
+    "img": "pack-images/flags/Gt.png",
+    "loop": true,
+    "codes": "flag_gt"
+  },
+  {
+    "name": "Rage Skip",
+    "type": "toggle",
+    "img": "pack-images/flags/Gr.png",
+    "loop": true,
+    "codes": "flag_gr"
+  },
+  {
+    "name": "Don't Shuffle Mimics",
+    "type": "toggle",
+    "img": "pack-images/flags/Et.png",
+    "loop": true,
+    "codes": "flag_et"
+  },
+  {
+    "name": "Keep Unique Items and Consumables Separate",
+    "type": "toggle",
+    "img": "pack-images/flags/Eu.png",
+    "loop": true,
+    "codes": "flag_eu"
+  },
+  {
+    "name": "Guarantee Refresh",
+    "type": "toggle",
+    "img": "pack-images/flags/Er.png",
+    "loop": true,
+    "codes": "flag_er"
+  },
+  {
+    "name": "Battle Magic Not Guaranteed",
+    "type": "toggle",
+    "img": "pack-images/flags/Nw.png",
+    "loop": true,
+    "codes": "flag_nw"
+  },
+  {
+    "name": "Matching Sword Not Guaranteed",
+    "type": "toggle",
+    "img": "pack-images/flags/Ns.png",
+    "loop": true,
+    "codes": "flag_ns"
+  },
+  {
+    "name": "Barrier Not Guaranteed",
+    "type": "toggle",
+    "img": "pack-images/flags/Nb.png",
+    "loop": true,
+    "codes": "flag_nb"
+  },
+  {
+    "name": "Gas Mask Not Guaranteed",
+    "type": "toggle",
+    "img": "pack-images/flags/Ng.png",
+    "loop": true,
+    "codes": "flag_ng"
+  },
+  {
+    "name": "Vanilla Maps",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "pack-images/flags/Vm.png",
+        "codes": "flag_vm",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/flags/Vbangm.png",
+        "codes": "flag_vbangm",
+        "inherit_codes": false
+      }
+    ],
+    "loop": true
+  },
+  {
+    "name": "Vanilla Wild Warp",
+    "type": "toggle",
+    "img": "pack-images/flags/Vw.png",
+    "loop": true,
+    "codes": "flag_vw"
+  },
+  {
+    "name": "Vanilla Bonus Items",
+    "type": "toggle",
+    "img": "pack-images/flags/Vb.png",
+    "loop": true,
+    "codes": "flag_vb"
+  }
+]

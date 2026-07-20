@@ -1,0 +1,114 @@
+[
+  {
+    "name": "map_overworld",
+    "img": "maps/overworld map.png"
+  },
+  {
+    "name": "map_wind_cave",
+    "img": "maps/wind cave.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_east_cave",
+    "img": "maps/east cave.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_sabre_west",
+    "img": "maps/mt sabre west.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_sabre_north",
+    "img": "maps/mt sabre north.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_waterfall_cave",
+    "img": "maps/waterfall cave.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_fog_lamp_cave",
+    "img": "maps/fog lamp cave.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_kirisa_plant_cave",
+    "img": "maps/kirisa plant cave.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_evil_spirit_island",
+    "img": "maps/evil spirit island cave.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_saberas_fortress",
+    "img": "maps/saberas castle.png",
+    "location_size": 36,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_mt_hydra",
+    "img": "maps/mt hydra.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_styx",
+    "img": "maps/styx.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_oasis_cave",
+    "img": "maps/oasis cave.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_goa_kelbesque",
+    "img": "maps/goa kelbesque.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_goa_sabera",
+    "img": "maps/goa sabera.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_goa_mado",
+    "img": "maps/goa mado.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_goa_karmine",
+    "img": "maps/goa karmine.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_pyramid_front",
+    "img": "maps/pyramid front.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  },
+  {
+    "name": "map_pyramid_back",
+    "img": "maps/pyramid back.png",
+    "location_size": 32,
+    "location_border_thickness": 4
+  }
+]

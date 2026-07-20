@@ -1,0 +1,58 @@
+[
+  {
+    "name": "East Cave Free Entrance",
+    "type": "progressive",
+    "img": "pack-images/east_cave/freeblank.png",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/east_cave/freebryn.png",
+        "codes": "eastfree, eastfreebrynmaer",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/freeport.png",
+        "codes": "eastfree, eastfreeportoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/freegoa.png",
+        "codes": "eastfree, eastfreegoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/freesaha.png",
+        "codes": "eastfree, eastfreesahara",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "East Cave Walled Entrance",
+    "type": "progressive",
+    "img": "pack-images/east_cave/wallblank.png",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/east_cave/wallbryn.png",
+        "codes": "eastwall, eastwallbrynmaer",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/wallport.png",
+        "codes": "eastwall, eastwallportoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/wallgoa.png",
+        "codes": "eastwall, eastwallgoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/east_cave/wallsaha.png",
+        "codes": "eastwall, eastwallsahara",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

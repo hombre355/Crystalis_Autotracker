@@ -1,0 +1,348 @@
+[
+  {
+    "name": "Gas Mask",
+    "type": "toggle",
+    "img": "pack-images/items/gasmask.png",
+    "loop": "true",
+    "codes": "gas,gasmask"
+  },
+  {
+    "name": "Power Ring",
+    "type": "toggle",
+    "img": "pack-images/items/powerring.png",
+    "loop": "true",
+    "codes": "power,powerring"
+  },
+  {
+    "name": "Warrior Ring",
+    "type": "toggle",
+    "img": "pack-images/items/warriorring.png",
+    "loop": "true",
+    "codes": "warrior,warriorring"
+  },
+  {
+    "name": "Iron Necklace",
+    "type": "toggle",
+    "img": "pack-images/items/ironnecklace.png",
+    "loop": "true",
+    "codes": "iron,ironpendant"
+  },
+  {
+    "name": "Deo's Pendant",
+    "type": "toggle",
+    "img": "pack-images/items/deospendant.png",
+    "loop": "true",
+    "codes": "deo,deos,deospendant"
+  },
+  {
+    "name": "Rabbit Boots",
+    "type": "toggle",
+    "img": "pack-images/items/rabbitboots.png",
+    "loop": "true",
+    "codes": "rabbit,rabbitboots"
+  },
+  {
+    "name": "Speed Boots",
+    "type": "toggle",
+    "img": "pack-images/items/speedboots.png",
+    "loop": "true",
+    "codes": "speed,leather,speedboots,leatherboots"
+  },
+  {
+    "name": "Shield Ring",
+    "type": "toggle",
+    "img": "pack-images/items/shieldring.png",
+    "loop": "true",
+    "codes": "shield,shieldring"
+  },
+  {
+    "name": "Eyeglasses",
+    "type": "toggle",
+    "img": "pack-images/items/eyeglasses.png",
+    "loop": "true",
+    "codes": "eyeglasses,eye,glasses"
+  },
+  {
+    "name": "Refresh",
+    "type": "toggle",
+    "img": "pack-images/items/refresh.png",
+    "loop": "true",
+    "codes": "refresh"
+  },
+  {
+    "name": "Paralysis",
+    "type": "toggle",
+    "img": "pack-images/items/paralysis.png",
+    "loop": "true",
+    "codes": "paralysis"
+  },
+  {
+    "name": "Telepathy",
+    "type": "toggle",
+    "img": "pack-images/items/telepathy.png",
+    "loop": "true",
+    "codes": "telepathy"
+  },
+  {
+    "name": "Teleport",
+    "type": "toggle",
+    "img": "pack-images/items/teleport.png",
+    "loop": "true",
+    "codes": "teleport"
+  },
+  {
+    "name": "Recover",
+    "type": "toggle",
+    "img": "pack-images/items/recover.png",
+    "loop": "true",
+    "codes": "recover"
+  },
+  {
+    "name": "Barrier",
+    "type": "toggle",
+    "img": "pack-images/items/barrier.png",
+    "loop": "true",
+    "codes": "barrier"
+  },
+  {
+    "name": "Change",
+    "type": "toggle",
+    "img": "pack-images/items/change.png",
+    "loop": "true",
+    "codes": "change"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "pack-images/items/flight.png",
+    "loop": "true",
+    "codes": "flight"
+  },
+  {
+    "name": "Opel Statue",
+    "type": "toggle",
+    "img": "pack-images/items/statueopel.png",
+    "loop": "true",
+    "codes": "opel"
+  },
+  {
+    "name": "Go Mode",
+    "type": "toggle",
+    "img": "pack-images/items/gomode.png",
+    "loop": "true",
+    "codes": "gomode"
+  },
+  {
+    "name": "Sword of Wind",
+    "type": "toggle",
+    "img": "pack-images/items/swordofwind.png",
+    "loop": "true",
+    "codes": "wind, sword, windsword"
+  },
+  {
+    "name": "Sword of Fire",
+    "type": "toggle",
+    "img": "pack-images/items/swordoffire.png",
+    "loop": "true",
+    "codes": "fire, sword, firesword"
+  },
+  {
+    "name": "Sword of Water",
+    "type": "toggle",
+    "img": "pack-images/items/swordofwater.png",
+    "loop": "true",
+    "codes": "water, sword, watersword"
+  },
+  {
+    "name": "Sword of Thunder",
+    "type": "progressive_toggle",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "pack-images/items/thundernowarp.png",
+        "codes": "thunder, sword, thundersword",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thundershyron.png",
+        "codes": "thunder, sword, thundersword, thundershyron",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderleaf.png",
+        "codes": "thunder, sword, thundersword, thunderleaf",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderbrynmaer.png",
+        "codes": "thunder, sword, thundersword, thunderbrynmaer",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderoak.png",
+        "codes": "thunder, sword, thundersword, thunderoak",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thundernadares.png",
+        "codes": "thunder, sword, thundersword, thundernadares",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderportoa.png",
+        "codes": "thunder, sword, thundersword, thunderportoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderamazones.png",
+        "codes": "thunder, sword, thundersword, thunderamazones",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderjoel.png",
+        "codes": "thunder, sword, thundersword, thunderjoel",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderzombie.png",
+        "codes": "thunder, sword, thundersword, thunderzombie",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thunderswan.png",
+        "codes": "thunder, sword, thundersword, thunderswan",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thundergoa.png",
+        "codes": "thunder, sword, thundersword, thundergoa",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/items/thundersahara.png",
+        "codes": "thunder, sword, thundersword, thundersahara",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Ball of Wind",
+    "type": "toggle",
+    "img": "pack-images/items/ballofwind.png",
+    "loop": "true",
+    "codes": "windball, ball"
+  },
+  {
+    "name": "Ball of Fire",
+    "type": "toggle",
+    "img": "pack-images/items/balloffire.png",
+    "loop": "true",
+    "codes": "fireball, ball"
+  },
+  {
+    "name": "Ball of Water",
+    "type": "toggle",
+    "img": "pack-images/items/ballofwater.png",
+    "loop": "true",
+    "codes": "waterball, ball"
+  },
+  {
+    "name": "Ball of Thunder",
+    "type": "toggle",
+    "img": "pack-images/items/ballofthunder.png",
+    "loop": "true",
+    "codes": "thunderball, ball"
+  },
+  {
+    "name": "Tornado Bracelet",
+    "type": "toggle",
+    "img": "pack-images/items/braceletofwind.png",
+    "loop": "true",
+    "codes": "tornado, bracelet, windbracelet, tornadobracelet"
+  },
+  {
+    "name": "Flame Bracelet",
+    "type": "toggle",
+    "img": "pack-images/items/braceletoffire.png",
+    "loop": "true",
+    "codes": "flame, bracelet, firebracelet, flamebracelet"
+  },
+  {
+    "name": "Blizzard Bracelet",
+    "type": "toggle",
+    "img": "pack-images/items/braceletofwater.png",
+    "loop": "true",
+    "codes": "blizzard, bracelet, waterbracelet, blizzardbracelet"
+  },
+  {
+    "name": "Storm Bracelet",
+    "type": "toggle",
+    "img": "pack-images/items/braceletofthunder.png",
+    "loop": "true",
+    "codes": "storm, bracelet, thunderbracelet, stormbracelet"
+  },
+  {
+    "name": "Keys",
+    "type": "consumable",
+    "img": "pack-images/items/keys.png",
+    "max_quantity": 3,
+    "codes": "unknownkey",
+    "loop": true
+  },
+  {
+    "name": "Flutes",
+    "type": "consumable",
+    "img": "pack-images/items/flutes.png",
+    "max_quantity": 4,
+    "codes": "unknownflute",
+    "loop": true
+  },
+  {
+    "name": "Statues",
+    "type": "consumable",
+    "img": "pack-images/items/statueopel.png",
+    "max_quantity": 4,
+    "codes": "unknownstatue",
+    "loop": true
+  },
+  {
+    "name": "Lamps",
+    "type": "consumable",
+    "img": "pack-images/items/lamps.png",
+    "max_quantity": 2,
+    "codes": "unknownlamp",
+    "loop": true
+  },
+  {
+    "name": "Bows",
+    "type": "consumable",
+    "img": "pack-images/items/bows.png",
+    "max_quantity": 3,
+    "codes": "bow",
+    "loop": true
+  },
+  {
+    "name": "Trades",
+    "type": "consumable",
+    "img": "pack-images/items/trades.png",
+    "max_quantity": 8,
+    "codes": "unknowntrade",
+    "loop": true
+  },
+  {
+    "name": "Unsupported on this pack",
+    "type": "toggle",
+    "img": "pack-images/flags/not implemented.png",
+    "disabled_img": "pack-images/flags/Wt.png",
+    "loop": true,
+    "codes": "unsupported_flag_wt"
+  },
+  {
+    "name": "Unsupported on this pack",
+    "type": "toggle",
+    "img": "pack-images/flags/not implemented.png",
+    "disabled_img": "pack-images/flags/Wu.png",
+    "loop": true,
+    "codes": "unsupported_flag_wu"
+  }
+]

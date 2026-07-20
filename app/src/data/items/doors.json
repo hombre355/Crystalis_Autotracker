@@ -1,0 +1,750 @@
+[
+  {
+    "name": "Sealed Cave Door to Wind Ball Room",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_sealed1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_sealed1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sealed Cave Door to Warp Boots Room",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sealed2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sealed2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sealed Cave Door to Medical Herb Room",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_sealed3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_sealed3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sealed Cave Door to Vampire Room",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sealed4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sealed4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Zebu's Cave Door to Mt. Sabre West",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_zebu",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_zebu_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Door to Warp Boots Ledge",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrewest1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrewest1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Door to Room 2",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrewest2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrewest2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Door to Room 3",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_sabrewest3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_sabrewest3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Door to Exterior (Room 2)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrewest4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrewest4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Door to Room 4",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrewest5",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrewest5_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Exit to Tornel Ledge",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrewest6",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrewest6_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Exit to Minor Ledge",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrenorth1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrenorth1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Door to Room 4 (Upper Bridge)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrenorth2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrenorth2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Door to Room 5 (Midway Chest)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrenorth3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrenorth3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Door to Room 6 (Ice-Blocked Hallway)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrenorth4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrenorth4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Exit to Middle Exterior (from Midway Chest)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrenorth5",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrenorth5_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Exit to Middle Exterior (from Ice-Blocked Hallway)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_sabrenorth6",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_sabrenorth6_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Door to Room 7 (Exit to Upper Exterior)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_sabrenorth7",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_sabrenorth7_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Door to Room 2",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_foglamp1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_foglamp1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Door to Room 5",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_foglamp2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_foglamp2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Door to Room 6 (Either Side)",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_foglamp3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_foglamp3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Door to Room 7",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_foglamp4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_foglamp4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Door to Room 8",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_foglamp5",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_foglamp5_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Kirisa Plant Cave Door to Room 2",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_kirisaplant1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_kirisaplant1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Kirisa Plant Cave Door to Room 3",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_kirisaplant2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_kirisaplant2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Kirisa Plant Cave Exit to Meadow",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/caveexit.png",
+        "codes": "d_kirisaplant3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/caveexitblocked.png",
+        "codes": "d_kirisaplant3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Evil Spirit Island Cave Exit to Angry Sea",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_evilspirit1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_evilspirit1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Evil Spirit Island Cave Floor Connection",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_evilspirit2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_evilspirit2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Evil Spirit Island Cave Door to Chest Room",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_evilspirit3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_evilspirit3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Evil Spirit Island Cave Exit to Zombie Town",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_evilspirit4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_evilspirit4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sabera's Fortress Left Side Door",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_sabera1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_sabera1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sabera's Fortress Right Side Door",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_sabera2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_sabera2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Styx Stairs Up",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_styx",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_styx_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Oasis Stairs to Goa",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsup.png",
+        "codes": "d_oasis1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsupblocked.png",
+        "codes": "d_oasis1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Oasis Stairs to Basement",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/cavestairsdown.png",
+        "codes": "d_oasis2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/cavestairsdownblocked.png",
+        "codes": "d_oasis2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Sabera's Floor Entrance",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goasabera1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goasabera1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Sabera's Floor Exit",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_goasabera2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_goasabera2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Mado's Floor Entrance",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goamado1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goamado1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Mado's Floor Boss Stairs",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_goamado2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_goamado2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Mado's Floor Chest Stairs",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsup.png",
+        "codes": "d_goamado3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsupblocked.png",
+        "codes": "d_goamado3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Karmine's Floor Entrance",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goakarmine1",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goakarmine1_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Karmine's Floor Exit",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goakarmine2",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goakarmine2_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Karmine Path to Basement",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goakarmine3",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goakarmine3_blocked",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goa: Karmine's Boss Arena",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/doors/fortressstairsdown.png",
+        "codes": "d_goakarmine4",
+        "inherit_codes": false
+      },
+      {
+        "img": "pack-images/doors/fortressstairsdownblocked.png",
+        "codes": "d_goakarmine4_blocked",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

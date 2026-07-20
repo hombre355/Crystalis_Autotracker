@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Oasis Cave",
+    "access_rules": [
+      "$canMaybeReach|goa, [$canReach|goa], $canOpenChest"
+    ],
+    "children": [
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "[flight], [$canBreakPowerRingWall]"
+        ],
+        "sections": [
+          {
+            "name": "Oasis Cave Items",
+            "item_count": 5,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 230,
+            "y": 490,
+            "size": 90,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "[flight], [$canBreakPowerRingWall]"
+        ],
+        "sections": [
+          {
+            "name": "Oasis Cave Items",
+            "item_count": 3,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 230,
+            "y": 490,
+            "size": 90,
+            "force_invisibility_rules": [
+              "$negate|flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "flight",
+          "flag_wm, [flight]",
+          "$negate|flag_wm, $canMaybeEnterGoaFrontEntrance, $canMaybeFullyCrossGoa, [$canEnterGoaFrontEntrance], [$canFullyCrossGoa]"
+        ],
+        "sections": [
+          {
+            "name": "Fruit of Power 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 30,
+            "y": 470,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "$negate|flag_wm, $canCrossRivers",
+          "flag_wm, d_oasis2, [flight]",
+          "flight"
+        ],
+        "sections": [
+          {
+            "name": "Fruit of Power 2",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 280,
+            "y": 530,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "$negate|flag_wm",
+          "flag_wm, d_oasis2, [flight]",
+          "flight"
+        ],
+        "sections": [
+          {
+            "name": "Leather Boots",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 300,
+            "y": 25
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "$negate|flag_wm, $canCrossRivers, $canMaybeBreakPowerRingWall, [$canBreakPowerRingWall]",
+          "flag_wm, d_oasis2, $canCrossRivers, $canMaybeBreakPowerRingWall, [$canBreakPowerRingWall], [flight]",
+          "flag_wm, flight, $canMaybeBreakPowerRingWall, [$canBreakPowerRingWall]"
+        ],
+        "sections": [
+          {
+            "name": "Power Ring",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 465,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "flight",
+          "flag_wm, d_oasis2, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Battle Armor",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 470,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "$negate|d_oasis1_blocked"
+        ],
+        "sections": [
+          {
+            "name": "Door to Goa",
+            "item_count": 0,
+            "hosted_item": "d_oasis1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 170,
+            "y": 35,
+            "force_invisibility_rules": [
+              "$negate|flag_wm",
+              "flight"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oasis Cave",
+        "access_rules": [
+          "$negate|d_oasis2_blocked"
+        ],
+        "sections": [
+          {
+            "name": "Stairs Down to Basement",
+            "item_count": 0,
+            "hosted_item": "d_oasis2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_oasis_cave",
+            "x": 90,
+            "y": 550,
+            "force_invisibility_rules": [
+              "$negate|flag_wm",
+              "flight"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

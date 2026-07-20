@@ -1,0 +1,31 @@
+[
+  {
+    "name": "zzzzzzzzzzzInvalidate Cache",
+    "access_rules": [
+      "$invalidateCache"
+    ],
+    "children": [
+      {
+        "name": "zzzzzzzzzzzInvalidate Cache",
+        "access_rules": [
+          "$invalidateCache"
+        ],
+        "sections": [
+          {
+            "name": "Pyramid Front Items",
+            "item_count": 3,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 10000,
+            "y": 10000,
+            "size": 5
+          }
+        ]
+      }
+    ]
+  }
+]

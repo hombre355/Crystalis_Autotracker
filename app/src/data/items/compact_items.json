@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Sword of Wind",
+    "type": "progressive",
+    "loop": "false",
+    "stages": [
+      {
+        "img": "pack-images/items/swordofwind.png",
+        "codes": "wind, sword, windsword",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandballofwind.png",
+        "codes": "windball, ball",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandbraceletofwind.png",
+        "codes": "tornado, bracelet, windbracelet, tornadobracelet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Sword of Fire",
+    "type": "progressive",
+    "loop": "false",
+    "stages": [
+      {
+        "img": "pack-images/items/swordoffire.png",
+        "codes": "fire, sword, firesword",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandballoffire.png",
+        "codes": "fireball, ball",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandbraceletoffire.png",
+        "codes": "flame, bracelet, firebracelet, flamebracelet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Sword of Water",
+    "type": "progressive",
+    "loop": "false",
+    "stages": [
+      {
+        "img": "pack-images/items/swordofwater.png",
+        "codes": "water, sword, watersword",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandballofwater.png",
+        "codes": "waterball, ball",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandbraceletofwater.png",
+        "codes": "blizzard, bracelet, waterbracelet, blizzardbracelet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Sword of Thunder",
+    "type": "progressive",
+    "loop": "false",
+    "stages": [
+      {
+        "img": "pack-images/items/thundernowarp.png",
+        "codes": "thunder, sword, thundersword",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandballofthunder.png",
+        "codes": "thunderball, ball",
+        "inherit_codes": true
+      },
+      {
+        "img": "pack-images/items/swordandbraceletofthunder.png",
+        "codes": "storm, bracelet, thunderbracelet, stormbracelet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Kirisa Plant",
+    "type": "toggle",
+    "img": "pack-images/items/kirisaplant.png",
+    "loop": "true",
+    "codes": "kirisa, trade, kirisaplant"
+  },
+  {
+    "name": "Love Pendant",
+    "type": "toggle",
+    "img": "pack-images/items/lovependant.png",
+    "loop": "true",
+    "codes": "love, pendant, lovependant, trade"
+  },
+  {
+    "name": "Bow of Moon",
+    "type": "toggle",
+    "img": "pack-images/items/bowofmoon.png",
+    "loop": "true",
+    "codes": "bow, moon, bowofmoon, graybow"
+  },
+  {
+    "name": "Bow of Sun",
+    "type": "toggle",
+    "img": "pack-images/items/bowofsun.png",
+    "loop": "true",
+    "codes": "bow, sun, bowofsun, redbow"
+  },
+  {
+    "name": "Bow of Sun/Moon",
+    "type": "composite_toggle",
+    "codes": "bow, sunmoon",
+    "item_left": "bowofmoon",
+    "item_right": "bowofsun",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "pack-images/items/sunmoonblank.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "pack-images/items/moononly.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "pack-images/items/bowofsun.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "pack-images/items/sunmoon.png"
+      }
+    ]
+  },
+  {
+    "name": "Bow of Truth",
+    "type": "toggle",
+    "img": "pack-images/items/bowoftruth.png",
+    "loop": "true",
+    "codes": "bow, truth, bowoftruth, bluebow"
+  },
+  {
+    "name": "Draygon",
+    "type": "toggle",
+    "img": "pack-images/bosses/draygon.png",
+    "loop": "true",
+    "codes": "draygon"
+  },
+  {
+    "name": "Kelbesque 1",
+    "type": "toggle",
+    "img": "pack-images/bosses/kelbesque1compact.png",
+    "loop": "true",
+    "codes": "kelbesque1"
+  },
+  {
+    "name": "Kelbesque 2",
+    "type": "toggle",
+    "img": "pack-images/bosses/kelbesque2compact.png",
+    "loop": "true",
+    "codes": "kelbesque2"
+  },
+  {
+    "name": "Kelbesque",
+    "type": "composite_toggle",
+    "codes": "kelbesque",
+    "item_left": "kelbesque1",
+    "item_right": "kelbesque2",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "pack-images/bosses/kelbesquecompact.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "pack-images/bosses/kelbesque1compact.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "pack-images/bosses/kelbesque2compact.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "pack-images/bosses/kelbesquebothcompact.png"
+      }
+    ]
+  },
+  {
+    "name": "Sabera 1",
+    "type": "toggle",
+    "img": "pack-images/bosses/sabera1compact.png",
+    "loop": "true",
+    "codes": "sabera1"
+  },
+  {
+    "name": "Sabera 2",
+    "type": "toggle",
+    "img": "pack-images/bosses/sabera2compact.png",
+    "loop": "true",
+    "codes": "sabera2"
+  },
+  {
+    "name": "Sabera",
+    "type": "composite_toggle",
+    "codes": "sabera",
+    "item_left": "sabera1",
+    "item_right": "sabera2",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "pack-images/bosses/saberacompact.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "pack-images/bosses/sabera1compact.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "pack-images/bosses/sabera2compact.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "pack-images/bosses/saberabothcompact.png"
+      }
+    ]
+  },
+  {
+    "name": "Mado 1",
+    "type": "toggle",
+    "img": "pack-images/bosses/mado1compact.png",
+    "loop": "true",
+    "codes": "mado1"
+  },
+  {
+    "name": "Mado 2",
+    "type": "toggle",
+    "img": "pack-images/bosses/mado2compact.png",
+    "loop": "true",
+    "codes": "mado2"
+  },
+  {
+    "name": "Mado",
+    "type": "composite_toggle",
+    "codes": "mado",
+    "item_left": "mado1",
+    "item_right": "mado2",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "pack-images/bosses/madocompact.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "pack-images/bosses/mado1compact.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "pack-images/bosses/mado2compact.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "pack-images/bosses/madobothcompact.png"
+      }
+    ]
+  },
+  {
+    "name": "Karmine",
+    "type": "toggle",
+    "img": "pack-images/bosses/karminecompact.png",
+    "loop": "true",
+    "codes": "karmine"
+  }
+]

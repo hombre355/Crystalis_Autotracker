@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Mt. Hydra",
+    "access_rules": [
+      "$canMaybeReach|goa, [$canReach|goa], $canOpenChest"
+    ],
+    "children": [
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "[$canBreakHydraWalls], [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Mt. Hydra Items",
+            "item_count": 5,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 85,
+            "y": 155,
+            "size": 90,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "[$canBreakHydraWalls], [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Mt. Hydra Items",
+            "item_count": 4,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 85,
+            "y": 155,
+            "size": 90,
+            "force_invisibility_rules": [
+              "$negate|flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "$canMaybeBreakHydraWalls, [$canBreakHydraWalls], flight"
+        ],
+        "sections": [
+          {
+            "name": "Mt. Hydra Items",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 85,
+            "y": 155,
+            "size": 90,
+            "force_invisibility_rules": [
+              "$negate|flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "$canCrossRivers, $canMaybeBreakHydraWalls, [$canBreakHydraWalls]"
+        ],
+        "sections": [
+          {
+            "name": "Mimic",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_mt_hydra",
+            "x": 290,
+            "y": 120,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "$canMaybeBreakHydraWalls, [$canBreakHydraWalls], flight"
+        ],
+        "sections": [
+          {
+            "name": "Bow of Sun",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_mt_hydra",
+            "x": 170,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "$canCrossRivers, $canMaybeBreakHydraWalls, [$canBreakHydraWalls]"
+        ],
+        "sections": [
+          {
+            "name": "Magic Ring",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_mt_hydra",
+            "x": 370,
+            "y": 400,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Fruit of Lime",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_mt_hydra",
+            "x": 300,
+            "y": 460,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Hydra",
+        "access_rules": [
+          "$canCrossRivers"
+        ],
+        "sections": [
+          {
+            "name": "Medical Herb",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_mt_hydra",
+            "x": 433,
+            "y": 300,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

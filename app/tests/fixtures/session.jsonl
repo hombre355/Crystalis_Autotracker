@@ -1,0 +1,8 @@
+{"t":"hello","proto":1,"emu":"mesen2","script":"bridge.lua/0.1.0"}
+{"t":"gamestate","v":2}
+{"t":"seed","checksum":"2020202020202020"}
+{"t":"ram","seq":1,"regions":{"6430":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","6480":"LS0tLS0tAJj/2v8o/+L/fyAgICAgIL0ALS0tLS0tzRAGAP8AAQAIAP///////////////////////////////w==","1bc0":"AAA=","1f02":"AAAAAAAAAAA="}}
+{"t":"gamestate","v":3}
+{"t":"flags","raw":"c t i o n a l   S Y S T E M     1 0 2 4   f u n c t i o n a l   C O N D I T I O N :       G R E E N             I N P U T   C O D E   N A M E                   "}
+{"t":"gamestate","v":2}
+{"t":"gamestate","v":3}

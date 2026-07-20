@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Styx",
+    "access_rules": [
+      "$canMaybeReach|goa, [$canReach|goa], $canCrossRivers, $maybeHasKeyToStyx, [$hasKeyToStyx], $canBypassBarriers, $canOpenChest"
+    ],
+    "children": [
+      {
+        "name": "Styx: Mimic 1",
+        "access_rules": [
+          "$negate|flag_wm",
+          "flag_wm, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Mimic 1",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 95,
+            "y": 20,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          },
+          {
+            "map": "map_overworld",
+            "x": 0,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Styx: Mimic 2",
+        "access_rules": [
+          "$negate|flag_wm, flight",
+          "flag_wm, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Mimic 2",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 275,
+            "y": 150,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          },
+          {
+            "map": "map_overworld",
+            "x": 50,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Styx: Mimic 3",
+        "access_rules": [
+          "$negate|flag_wm, flight",
+          "flag_wm, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Mimic 3",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 200,
+            "y": 230,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          },
+          {
+            "map": "map_overworld",
+            "x": 100,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Styx: Medical Herb",
+        "access_rules": [
+          "$negate|flag_wm, $canCrossRivers",
+          "flag_wm, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Medical Herb",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 120,
+            "y": 230,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          },
+          {
+            "map": "map_overworld",
+            "x": 150,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Styx: Sword of Thunder",
+        "access_rules": [
+          "$negate|flag_wm, $canCrossRivers, $canCrossSpikes",
+          "flag_wm, flight",
+          "flag_wm, d_styx, [$canCrossSpikes]"
+        ],
+        "sections": [
+          {
+            "name": "Sword of Thunder",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 500,
+            "y": 100
+          },
+          {
+            "map": "map_overworld",
+            "x": 200,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Styx: Psycho Shield",
+        "access_rules": [
+          "$negate|flag_wm, flight",
+          "flag_wm, [flight]"
+        ],
+        "sections": [
+          {
+            "name": "Psycho Shield",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 250,
+            "y": 175
+          },
+          {
+            "map": "map_overworld",
+            "x": 250,
+            "y": 70,
+            "size": 45,
+            "force_invisibility_rules": []
+          }
+        ]
+      },
+      {
+        "name": "Styx",
+        "access_rules": [
+          "$negate|d_styx_blocked"
+        ],
+        "sections": [
+          {
+            "name": "Stairs Up",
+            "item_count": 0,
+            "hosted_item": "d_styx"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_styx",
+            "x": 140,
+            "y": 150,
+            "force_invisibility_rules": [
+              "$negate|flag_wm",
+              "flight"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

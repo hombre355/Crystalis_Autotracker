@@ -1,0 +1,15 @@
+# OS litter
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
+# Reference pack from another project (kept local only)
+crystalis-randomizer-tracker-main/
+
+# App: dependencies and generated artifacts
+app/node_modules/
+app/out/
+app/release/
+npm-debug.log*

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Pyramid Back",
+    "access_rules": [
+      "$canMaybeReach|sahara, [$canReach|sahara], flight, $maybeHasCryptAccess, [$hasCryptAccess], $canOpenChest"
+    ],
+    "children": [
+      {
+        "name": "Pyramid Back",
+        "access_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Pyramid Back Items",
+            "item_count": 2,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 660,
+            "y": 290,
+            "size": 90,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyramid Back",
+        "access_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Pyramid Back Item",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_overworld",
+            "x": 660,
+            "y": 290,
+            "size": 90,
+            "force_invisibility_rules": [
+              "$negate|flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyramid Back",
+        "access_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Mimic",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_pyramid_back",
+            "x": 81,
+            "y": 50,
+            "force_invisibility_rules": [
+              "flag_et",
+              "flag_eu"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyramid Back",
+        "access_rules": [
+          ""
+        ],
+        "sections": [
+          {
+            "name": "Opel Statue",
+            "item_count": 1,
+            "clear_as_group": "false"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "map_pyramid_back",
+            "x": 450,
+            "y": 590,
+            "force_invisibility_rules": [
+              "flag_eu"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,480 @@
+[
+  {
+    "name": "East Cave Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "ecw,ecw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/eastbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "ecw,ecw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/eastbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "ecw,ecw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/eastbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "ecw,ecw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/eastbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Sealed Cave Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "scw,scw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sealedbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "scw,scw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sealedbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "scw,scw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sealedbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "scw,scw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sealedbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "scw,scw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sealedbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Zebu's Cave Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "zcw,zcw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/zebubadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "zcw,zcw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/zebubadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "zcw,zcw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/zebubadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "zcw,zcw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/zebubadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "zcw,zcw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/zebubadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre West Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "msww,msww_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrewestbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "msww,msww_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrewestbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "msww,msww_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrewestbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "msww,msww_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrewestbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "msww,msww_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrewestbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Sabre North Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "msnw,msnw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrenorthbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "msnw,msnw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrenorthbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "msnw,msnw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrenorthbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "msnw,msnw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrenorthbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "msnw,msnw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/sabrenorthbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Waterfall Cave Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "wcw,wcw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/waterfallbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "wcw,wcw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/waterfallbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "wcw,wcw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/waterfallbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "wcw,wcw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/waterfallbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "wcw,wcw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/waterfallbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Fog Lamp Cave Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "flcw,flcw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/foglampbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "flcw,flcw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/foglampbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "flcw,flcw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/foglampbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "flcw,flcw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/foglampbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "flcw,flcw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/foglampbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Kirisa Plant Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "kpcw,kpcw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/kirisabadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "kpcw,kpcw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/kirisabadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "kpcw,kpcw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/kirisabadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "kpcw,kpcw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/kirisabadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "kpcw,kpcw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/kirisabadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Evil Spirit Island Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "esiw,esiw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/evilspiritislandbadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "esiw,esiw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/evilspiritislandbadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "esiw,esiw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/evilspiritislandbadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "esiw,esiw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/evilspiritislandbadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "esiw,esiw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/evilspiritislandbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Hydra Walls",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/stonewall.png",
+        "codes": "mhw,mhw_wind",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/hydrabadge.png"
+      },
+      {
+        "img": "pack-images/walls/icewall.png",
+        "codes": "mhw,mhw_fire",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/hydrabadge.png"
+      },
+      {
+        "img": "pack-images/walls/emberwall.png",
+        "codes": "mhw,mhw_water",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/hydrabadge.png"
+      },
+      {
+        "img": "pack-images/walls/steelwall.png",
+        "codes": "mhw,mhw_thunder",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/hydrabadge.png"
+      },
+      {
+        "img": "pack-images/walls/blackoutwall.png",
+        "codes": "mhw,mhw_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/hydrabadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Entrance Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goafrontwall.png",
+        "codes": "goa_entrance_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/goaentrancebadge.png"
+      },
+      {
+        "img": "pack-images/walls/goafrontwalltested.png",
+        "codes": "goa_entrance_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/goaentrancebadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Sabera Boss Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goasaberawall.png",
+        "codes": "goa_sabera_boss_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/saberabossbadge.png"
+      },
+      {
+        "img": "pack-images/walls/goasaberawalltested.png",
+        "codes": "goa_sabera_boss_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/saberabossbadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Sabera Item Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goasaberawall.png",
+        "codes": "goa_sabera_item_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/saberaitembadge.png"
+      },
+      {
+        "img": "pack-images/walls/goasaberawalltested.png",
+        "codes": "goa_sabera_item_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/saberaitembadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Mado Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goamadowall.png",
+        "codes": "goa_mado_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/madobadge.png"
+      },
+      {
+        "img": "pack-images/walls/goamadowalltested.png",
+        "codes": "goa_mado_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/madobadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Karmine Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goakarminewall.png",
+        "codes": "goa_karmine_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/karminebadge.png"
+      },
+      {
+        "img": "pack-images/walls/goakarminewalltested.png",
+        "codes": "goa_karmine_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/karminebadge.png"
+      }
+    ]
+  },
+  {
+    "name": "Goa Basement Wall",
+    "type": "progressive",
+    "loop": true,
+    "stages": [
+      {
+        "img": "pack-images/walls/goafrontwall.png",
+        "codes": "goa_basement_wall_cleared",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/oasisbadge.png"
+      },
+      {
+        "img": "pack-images/walls/goafrontwalltested.png",
+        "codes": "goa_basement_wall_tested",
+        "inherit_codes": false,
+        "img_mods": "overlay|pack-images/walls/oasisbadge.png"
+      }
+    ]
+  }
+]
