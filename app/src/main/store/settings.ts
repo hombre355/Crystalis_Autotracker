@@ -12,16 +12,23 @@ export interface Settings {
   outputDir: string;
   /** TCP port the bridge server listens on. */
   bridgePort: number;
+  /** Path to the "xb1 controller" project folder (probe/mapper/config derived from it). */
+  xb1ProjectPath: string;
+  /** Start the controller bridge automatically when a game launches. */
+  xb1Enabled: boolean;
 }
 
 function defaults(): Settings {
   const guessMesen = join(homedir(), 'Mesen_emu', 'Mesen.app');
   const guessRom = join(homedir(), 'Mesen_emu', 'Crystalis.nes');
+  const guessXb1 = join(homedir(), 'Personal_Project', 'xb1 controller');
   return {
     mesenAppPath: existsSync(guessMesen) ? guessMesen : '',
     vanillaRomPath: existsSync(guessRom) ? guessRom : '',
     outputDir: join(app.getPath('userData'), 'seeds'),
-    bridgePort: 32275
+    bridgePort: 32275,
+    xb1ProjectPath: existsSync(guessXb1) ? guessXb1 : '',
+    xb1Enabled: false
   };
 }
 

@@ -63,6 +63,24 @@ regions to the app.
 **New seed = automatic reset.** The bridge watches the ROM's seed checksum; loading a
 different seed clears all tracker state, overrides included.
 
+### Xbox controller support (optional)
+
+The launcher can also start a wired XB1 Classic Controller bridge alongside the emulator, so
+the controller drives Mesen's keyboard controls. It runs the native tools from a separate
+project (`../xb1 controller`): `xb1-gip-probe` (claims the controller's USB interface, needs
+root) piped into `xb1-keyboard-mapper` (injects keystrokes, unprivileged).
+
+- **No password is stored.** Root for the probe comes from a one-time `sudoers` NOPASSWD rule
+  scoped to just that binary — the app generates the exact line for you (Settings → **Show
+  sudoers rule**) and runs the probe with `sudo -n` so a missing rule fails fast instead of
+  prompting.
+- Point **Settings → Xbox controller** at the project folder, grant the mapper macOS
+  Accessibility permission (**Grant keyboard access** button), then flip **Auto-start with
+  game** on. The bridge starts when you launch a ROM and stops (releasing the controller) when
+  Mesen exits.
+- Full setup steps, the security caveat, and troubleshooting are in
+  [`../docs/xb1-controller-setup.md`](../docs/xb1-controller-setup.md).
+
 ## Requirements
 
 - macOS (arm64) with **Mesen 2** — tested against the June 2025 build.

@@ -16,7 +16,13 @@ const api = {
   emulatorRunning: () => ipcRenderer.invoke('emulator:running'),
   historyList: () => ipcRenderer.invoke('history:list'),
   historyRemove: (id: string) => ipcRenderer.invoke('history:remove', id),
-  readSpoiler: (path: string) => ipcRenderer.invoke('spoiler:read', path)
+  readSpoiler: (path: string) => ipcRenderer.invoke('spoiler:read', path),
+  pickXb1: () => ipcRenderer.invoke('settings:pickXb1'),
+  startXb1: () => ipcRenderer.invoke('xb1:start'),
+  stopXb1: () => ipcRenderer.invoke('xb1:stop'),
+  xb1Running: () => ipcRenderer.invoke('xb1:running'),
+  xb1SudoersLine: () => ipcRenderer.invoke('xb1:sudoersLine'),
+  xb1RequestAccess: () => ipcRenderer.invoke('xb1:requestAccess')
 };
 
 export type TrackerApi = typeof api;

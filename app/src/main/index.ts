@@ -2,7 +2,7 @@ import { app, BrowserWindow } from 'electron';
 import { join } from 'node:path';
 import { LuaBridgeServer } from './server/tcpServer';
 import { DEFAULT_PORT } from '../shared/protocol/messages';
-import { registerIpcHandlers, startFakeLuaReplay, wireBridgeToRenderer } from './ipc';
+import { registerIpcHandlers, startFakeLuaReplay, stopXb1, wireBridgeToRenderer } from './ipc';
 
 let mainWindow: BrowserWindow | null = null;
 const bridge = new LuaBridgeServer();
@@ -75,7 +75,13 @@ app.whenReady().then(async () => {
   });
 });
 
+// Reap the (root) controller probe before the app exits, so it never outlives us.
+app.on('before-quit', () => {
+  stopXb1();
+});
+
 app.on('window-all-closed', () => {
+  stopXb1();
   void bridge.stop();
   app.quit();
 });

@@ -557,6 +557,94 @@ button.primary:disabled {
   font-size: 12px;
 }
 
+.controller-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid #2c3145;
+  padding-top: 12px;
+  margin-top: 4px;
+}
+
+.controller-status {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.controller-status .status-on { color: var(--good); }
+.controller-status .status-err { color: var(--bad); }
+
+.toggle {
+  background: var(--panel);
+  border: 1px solid #2c3145;
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 4px 14px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.toggle.on {
+  background: var(--good);
+  color: #10131c;
+  border-color: var(--good);
+  font-weight: 600;
+}
+
+.controller-setup {
+  display: flex;
+  gap: 8px;
+}
+
+.controller-setup button {
+  background: var(--panel);
+  border: 1px solid #2c3145;
+  color: var(--text);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sudoers-box {
+  background: var(--bg);
+  border: 1px solid #2c3145;
+  border-radius: 8px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sudoers-box code {
+  background: var(--panel);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.sudoers-line {
+  margin: 0;
+  padding: 8px 10px;
+  background: var(--panel);
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.sudoers-box > button {
+  align-self: flex-start;
+  background: var(--accent);
+  color: #10131c;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 .hint code {
   background: var(--panel);
   padding: 1px 6px;

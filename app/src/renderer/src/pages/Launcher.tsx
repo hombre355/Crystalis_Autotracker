@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { AppSettings as Settings, PresetInfo, SeedRecord } from '../window';
+import { ControllerSettings } from '../components/ControllerSettings';
 
 export function Launcher({ onLaunched }: { onLaunched: () => void }): React.JSX.Element {
   const [settings, setSettings] = useState<Settings | null>(null);
@@ -183,6 +184,8 @@ export function Launcher({ onLaunched }: { onLaunched: () => void }): React.JSX.
             Change
           </button>
         </div>
+
+        <ControllerSettings settings={settings} onSettings={setSettings} />
       </section>
     </div>
   );

@@ -4,6 +4,8 @@ export interface AppSettings {
   vanillaRomPath: string;
   outputDir: string;
   bridgePort: number;
+  xb1ProjectPath: string;
+  xb1Enabled: boolean;
 }
 
 export interface PresetInfo {
@@ -42,6 +44,12 @@ declare global {
       historyList(): Promise<SeedRecord[]>;
       historyRemove(id: string): Promise<SeedRecord[]>;
       readSpoiler(path: string): Promise<unknown>;
+      pickXb1(): Promise<AppSettings | null>;
+      startXb1(): Promise<{ running: boolean }>;
+      stopXb1(): Promise<{ running: boolean }>;
+      xb1Running(): Promise<boolean>;
+      xb1SudoersLine(): Promise<string>;
+      xb1RequestAccess(): Promise<{ requested: boolean }>;
     };
   }
 }
